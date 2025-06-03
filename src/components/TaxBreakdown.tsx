@@ -21,7 +21,7 @@ const TaxBreakdown = ({ taxResult }: TaxBreakdownProps) => {
 
   return (
     <Card className="shadow-lg border-0 bg-white/80 backdrop-blur-sm">
-      <CardHeader className="bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-t-lg">
+      <CardHeader className="bg-gradient-to-r from-blue-600 to-yellow-600 text-white rounded-t-lg">
         <CardTitle className="flex items-center gap-3 text-2xl">
           <Receipt className="w-8 h-8" />
           Tax Breakdown by Bracket
